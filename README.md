@@ -10,6 +10,7 @@
  - **Latest News**: Stay tuned for the latest news about the game and find out everything that's happening.
  - **Agents Info**: Learn everything about your favorite agent and their habilities.
  - **Maps Info**: Learn more about your favorite and most hated map.
+ - **Weapons Info**: Learn about each weapon in game and don't use the wrong weapon in the worst situation.
 
 ## 💻 Running locally
 
