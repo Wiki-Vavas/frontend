@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+<p style="text-align:center;">
+  <img src="./.github/wiki-vavas-logo.png">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p style="text-align:center;">
+  Your Valorant Companion. Your one-stop resource for all things Valorant. Dive into agent details, maps, weapons and the latest news. Created by gamers, for gamers.
+</p>
 
-Currently, two official plugins are available:
+## 🔫 Features
+ - **Latest News**: Stay tuned for the latest news about the game and find out everything that's happening.
+ - **Agents Info**: Learn everything about your favorite agent and their habilities.
+ - **Maps Info**: Learn more about your favorite and most hated map.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Running locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```sh
+git clone https://github.com/Wiki-Vavas/frontend
+```
+```sh
+cd frontend
+```
+```sh
+npm install
+```
+```sh
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📜 License
+
+[MIT](./LICENSE)
