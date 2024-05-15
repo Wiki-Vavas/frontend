@@ -1,12 +1,7 @@
-import Home from "./pages/home";
+import Agents from "./pages/agents";
 
 function App() {
-
-  return (
-<div>
-  <Home></Home>
-</div>  
-  )
+  return <Agents />
 }
 
 export default App

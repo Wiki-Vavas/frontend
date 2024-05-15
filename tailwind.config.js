@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        selectAgent: "url(/imgs/select-agent-background.png)"
+      }
+    },
   },
   plugins: [],
 }
