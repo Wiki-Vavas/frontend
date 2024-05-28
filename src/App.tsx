@@ -1,7 +1,9 @@
-import Agents from "./pages/agents";
+import { RouterProvider } from "react-router-dom";
+
+import { router } from "./routes";
 
 function App() {
-  return <Agents />
+  return <RouterProvider router={router} />
 }
 
 export default App
