@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/home";
 import Agents from "./pages/agents";
 import Agent from "./pages/agent";
+import Maps from "./pages/maps";
 
 export const router = createBrowserRouter([
     {
@@ -16,5 +17,9 @@ export const router = createBrowserRouter([
     {
         path: "/agent/:id",
         element: <Agent />
+    },
+    {
+        path: "/maps",
+        element: <Maps />
     }
 ]);
