@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Agents from "./pages/agents";
 import Agent from "./pages/agent";
 import Maps from "./pages/maps";
+import Map from "./pages/map";
 
 export const router = createBrowserRouter([
     {
@@ -21,5 +22,9 @@ export const router = createBrowserRouter([
     {
         path: "/maps",
         element: <Maps />
+    },
+    {
+      path: "/maps/:name",
+      element: <Map />
     }
 ]);
