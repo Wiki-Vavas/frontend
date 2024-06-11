@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        selectAgent: "url(/imgs/select-agent-background.png)"
+        selectAgent: "url(/imgs/select-agent-background.png)",
+        weaponAnimation: "url(/imgs/weapon-background.gif)"
       }
     },
   },

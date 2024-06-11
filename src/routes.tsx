@@ -5,6 +5,7 @@ import Agents from "./pages/agents";
 import Agent from "./pages/agent";
 import Maps from "./pages/maps";
 import Map from "./pages/map";
+import Weapon from "./pages/weapon";
 
 export const router = createBrowserRouter([
     {
@@ -26,5 +27,9 @@ export const router = createBrowserRouter([
     {
       path: "/maps/:name",
       element: <Map />
+    },
+    {
+      path: "/weapons",
+      element: <Weapon />
     }
 ]);
